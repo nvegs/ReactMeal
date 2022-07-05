@@ -2,7 +2,7 @@ import React from "react";
 import MealItemForm from "./MealItemForm";
 
 const MealItem = props => {
-    const price = `$${props.price.toFixed()}`;
+    const price = `$${props.price.toFixed(2)}`;
 
     return (
         <li key={props.id}  className="flex justify-between m-4 pb-4 border-[#ccc] border-b-2 ">
